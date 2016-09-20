@@ -64,4 +64,3 @@ private:
 	HMENU     i_hMenu;
 	LPVOID    i_lpParam;
 };
-

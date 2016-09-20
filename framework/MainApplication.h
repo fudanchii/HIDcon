@@ -10,11 +10,11 @@ class MainApplication
 public:
 	MainApplication(HINSTANCE hInstance)
 		: i_hinstance(hInstance)
-	    , i_cmdShow(1) {};
+		, i_cmdShow(1) {};
 
 	MainApplication(HINSTANCE hInstance, HINSTANCE, LPWSTR, int cmdShow)
 		: i_hinstance(hInstance)
-	    , i_cmdShow(cmdShow) {};
+		, i_cmdShow(cmdShow) {};
 
 	~MainApplication() {};
 

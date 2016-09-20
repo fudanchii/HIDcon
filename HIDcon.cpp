@@ -60,7 +60,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 	delete wndCls;
 	delete mainWindow;
 
-	return (int) msg.wParam;
+	return (int)msg.wParam;
 }
 
 
