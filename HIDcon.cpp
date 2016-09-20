@@ -13,7 +13,7 @@ ATOM                MyRegisterClass(HINSTANCE hInstance);
 BOOL                InitInstance(HINSTANCE, int);
 LRESULT CALLBACK    WndProc(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK    About(HWND, UINT, WPARAM, LPARAM);
-INT_PTR CALLBACK	LoadDevice(HWND, UINT, WPARAM, LPARAM);
+INT_PTR CALLBACK    LoadDevice(HWND, UINT, WPARAM, LPARAM);
 
 int  getTextFrom(HWND, UINT, char*, size_t);
 void ListHIDEnumeration(HWND);
